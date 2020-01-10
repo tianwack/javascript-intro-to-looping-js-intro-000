@@ -16,15 +16,15 @@ function whileLoop(n){
   return "done"
 }
 
-var i = 0
+var integer = 0
 
 function incrementVariable() {
-  i = i + 1;
-  return i;
+  integer = integer + 1;
+  return integer;
 }
 
 function doWhileLoop(integer){
   do{
     console.log("I run once regardless.");
-  } while (incrementVariable() < 35);
+  } while (incrementVariable() < integer);
 }
